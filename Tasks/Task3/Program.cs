@@ -3,37 +3,17 @@
 // -3 -> нет
 // 7 -> нет
 
-int num1 = 4;
-if ((num1 % 2) == 0)
+Console.WriteLine("Введите целое число n от 1 до бесконечности");
+string input = Console.ReadLine(); // пользовательский ввод
+int n = int.Parse (input);
+
+if ((n % 2) == 0)
 {
-    Console.WriteLine($"число {num1} является четным");
+    Console.WriteLine($"число {n} является четным");
 }
 else
 {
-    Console.WriteLine($"число {num1} является нечетным");
+    Console.WriteLine($"число {n} является нечетным");
 }
 
 
-
-
-int num2 = -3;
-if ((num2 % 2) == 0)
-{
-    Console.WriteLine($"число {num2} является четным");
-}
-else
-{
-    Console.WriteLine($"число {num2} является нечетным");
-}
-
-
-
-int num3 = 7;
-if ((num3 % 2) == 0)
-{
-    Console.WriteLine($"число {num3} является четным");
-}
-else
-{
-    Console.WriteLine($"число {num3} является нечетным");
-}
